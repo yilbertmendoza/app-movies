@@ -1,0 +1,35 @@
+.alert {
+  padding: 10px;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  opacity: 1;
+  transition: opacity 0.6s;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: rgba(0, 0, 0, 0.356);
+}
+
+.alert.error {
+  background-color: #f443367d;
+}
+
+.alert.warning {
+  background-color: #ffa60094;
+}
+
+.alert.success {
+  background-color: #096e0073;
+}
