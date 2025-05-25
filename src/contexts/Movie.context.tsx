@@ -21,8 +21,18 @@ const validateForm = (payload: Movie) => {
   let response = ''
   if (!payload.id) {
     response = 'El campo id es requerido'
-  } else if (!payload.title) {
-    response= 'El campo título es requerido'
+  } else if (
+    payload.title === '' 
+    || payload.title === null
+  ) {
+    response= 'El campo título es requerido';
+  } else if (
+    payload.year === ''
+    || payload.title === null
+  ) {
+    response= 'El campo año es requerido';
+  } else if (!Number(payload.year)) {
+    response= 'El campo año es debe ser numérico';
   }
   return response
 }
