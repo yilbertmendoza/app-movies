@@ -49,6 +49,7 @@ function MoviesView() {
       type: response.status, 
       show: true
     })
+    orderByYear();
   }
 
   const handleToggleFavoriteMovie = async(id: number | null) => {
@@ -58,6 +59,7 @@ function MoviesView() {
       type: response.status, 
       show: true
     })
+    orderByYear();
   }
 
   useEffect(() => {
