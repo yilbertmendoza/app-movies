@@ -11,7 +11,7 @@ import type { ReponseInterface } from '../interfaces/Response.interface';
 
 function MoviesView() {
   const params = useParams();
-  const { getSingleMovie, onEditarMovie } = useMovieContext();
+  const { getSingleMovie, onEditMovie } = useMovieContext();
   const [poster, setPoster] = useState<string>('');
   const [title, setTitle] = useState<string>('');
   const [year, setYear] = useState<string>('');
@@ -32,7 +32,7 @@ function MoviesView() {
       poster,
       isFavorite
     }
-    const response: ReponseInterface = await onEditarMovie(movieTemp);
+    const response: ReponseInterface = await onEditMovie(movieTemp);
     setDAlertMessage({ 
       type: response.status,
       message: response.message,
