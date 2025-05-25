@@ -2,7 +2,17 @@
 
 ## 1. Decisiones.
 
-Se seleccionó el template predefinido con React.js + Vite + TypeScript.
+Se seleccionó el template predefinido con:
+
+```
+- Node v20.19
+- npm v10.8.2
+- React v19.1.0
+- React-router v7.6.0
+- Vite
+- TypeScript.
+```
+
 La estructura se divide en objetividad y organizado con fácil ruta de busqueda.
 A conctinuación se presenta la estructura del código fuente que se definió:
 
@@ -35,20 +45,9 @@ Mejoraría aspectos y funcionalidades incluyendo librerías predefinidas para un
 
 ## 3. Ejecutar el proyecto
 
-- clonar proyecto: <br/>
-
 ```
   git clone https://gilbertMendoza@bitbucket.org/gilbertMendoza/app-movies.git
-```
-
-- Instalar componentes <br/>
-
-```
+  cd app-movies
   npm install
-```
-
-- Correr servicio <br/>
-
-```
   npm run dev
 ```
