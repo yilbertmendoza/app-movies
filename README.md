@@ -9,17 +9,17 @@ A conctinuación se presenta la estructura del código fuente que se definió:
 - node_modules
 - public
 - src
-  -- apis \
-  --- Movie.api.ts \
-  -- assets \
-  --- movies \
-  -- components \
-  -- context \
-  -- interfaces \
-  -- routes \
-  -- views \
-  -- App.tsx \
-  -- main.tsx \
+  -- apis <br/>
+  --- Movie.api.ts <br/>
+  -- assets <br/>
+  --- movies <br/>
+  -- components <br/>
+  -- context <br/>
+  -- interfaces <br/>
+  -- routes <br/>
+  -- views <br/>
+  -- App.tsx <br/>
+  -- main.tsx <br/>
 - index.html
 - package-lock.json
 - package.json
@@ -34,8 +34,8 @@ Mejoraría aspectos y funcionalidades incluyendo librerías predefinidas para un
 
 ## 3. Ejecutar el proyecto
 
-- clonar proyecto:\
-  git clone https://gilbertMendoza@bitbucket.org/gilbertMendoza/app-movies.git\
+- clonar proyecto: <br/>
+  git clone https://gilbertMendoza@bitbucket.org/gilbertMendoza/app-movies.git
 
 - Instalar componentes
   npm install
