@@ -9,17 +9,17 @@ A conctinuación se presenta la estructura del código fuente que se definió:
 - node_modules
 - public
 - src
-  -- apis\
-  --- Movie.api.ts\
-  -- assets\
-  --- movies\
-  -- components\
-  -- context\
-  -- interfaces\
-  -- routes\
-  -- views\
-  -- App.tsx\
-  -- main.tsx\
+  -- apis \
+  --- Movie.api.ts \
+  -- assets \
+  --- movies \
+  -- components \
+  -- context \
+  -- interfaces \
+  -- routes \
+  -- views \
+  -- App.tsx \
+  -- main.tsx \
 - index.html
 - package-lock.json
 - package.json
